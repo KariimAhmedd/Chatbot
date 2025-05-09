@@ -1,0 +1,48 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day", "What's up?", "Yo"],
+        "responses": ["Hey there!", "Hello!", "Hi! How can I assist you?"]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How's it going?", "How do you feel?", "What's up with you?"],
+        "responses": ["I'm just a bunch of code, but I'm doing great!", "Feeling fast and bug-free!", "Running smooth, thanks!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you", "Talk to you later", "I have to go", "Catch you later"],
+        "responses": ["Goodbye! Come back soon.", "Talk to you later!", "Stay safe!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+        "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name", "Your name please"],
+        "responses": ["I'm KimozChatBot, made from scratch by Karim!", "They call me Kimoz. 😎"]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is programming?", "Explain coding", "What does a programmer do?", "What is software development?"],
+        "responses": ["Programming means writing instructions for computers.", "Coding lets us talk to machines!"]
+      },
+      {
+        "tag": "learning",
+        "patterns": ["How can I learn to code?", "Best way to learn programming?", "Where do I start coding?", "Coding tips for beginners?"],
+        "responses": [
+          "Start with Python! It's beginner-friendly.",
+          "Practice every day. Small projects go a long way.",
+          "FreeCodeCamp, YouTube, and docs are your best friends!"
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who made you?", "Who created you?", "Who built you?"],
+        "responses": ["Karim built me from scratch — no AI hand-holding! 💪", "Proudly created by Karim. No pretrained stuff here!"]
+      }
+    ]
+  }
