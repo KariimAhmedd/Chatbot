@@ -17,6 +17,7 @@ KimozChatBot is a simple, customizable rule-based chatbot created entirely from 
 
 Chatbot_project/
 ├── main.py         # Core logic: data processing, training, and chatting
+
 ├── intents.json    # User-defined intents and responses
 
 ---
