@@ -32,6 +32,8 @@ git clone https://github.com/KariimAhmedd/ChatBot.git
 cd ChatBot
 pip install numpy nltk torch
 python main.py
+```
+
 
 
 🗨️ Sample Chat
