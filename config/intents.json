@@ -1,0 +1,206 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hello", "Hey", "Good day", "What's up?", "Yo", "Hi there", "Greetings",
+          "Good morning", "Good afternoon", "Good evening", "How do you do"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! I'm KimozChatBot, ready to help!",
+          "Greetings! What can I do for you?",
+          "Hey! I'm here to help. What's on your mind?"
+        ]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How's it going?", "How do you feel?", "What's up with you?"],
+        "responses": ["I'm just a bunch of code, but I'm doing great!", "Feeling fast and bug-free!", "Running smooth, thanks!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye", "Bye", "See you", "Talk to you later", "I have to go",
+          "Catch you later", "Have a good day", "Until next time", "Take care"
+        ],
+        "responses": [
+          "Goodbye! Feel free to come back if you need anything else.",
+          "Take care! Looking forward to our next chat.",
+          "Bye! Have a great day!",
+          "See you later! Don't hesitate to return if you need assistance."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", "Thank you", "Much appreciated", "Thanks a lot",
+          "I appreciate it", "You've been helpful", "That was helpful"
+        ],
+        "responses": [
+          "You're welcome! Is there anything else you'd like to know?",
+          "Glad I could help! Let me know if you need anything else.",
+          "My pleasure! Feel free to ask more questions.",
+          "Happy to help! What else can I do for you?"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name", "Your name please"],
+        "responses": ["I'm KimozChatBot, made from scratch by Karim!", "They call me Kimoz. 😎"]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is programming?", "Explain coding", "What does a programmer do?", "What is software development?", "Tell me about coding"],
+        "responses": ["Programming means writing instructions for computers.", "Coding lets us talk to machines!"]
+      },
+      {
+        "tag": "learning",
+        "patterns": ["How can I learn to code?", "Best way to learn programming?", "Where do I start coding?", "Coding tips for beginners?", "How do I become a programmer?"],
+        "responses": [
+          "Start with Python! It's beginner-friendly.",
+          "Practice every day. Small projects go a long way.",
+          "FreeCodeCamp, YouTube, and docs are your best friends!"
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": [
+          "Who made you?", "Who created you?", "Who built you?",
+          "Who developed you?", "Tell me about your creator"
+        ],
+        "responses": [
+          "I was created by Karim! I'm a custom-built AI assistant with advanced capabilities.",
+          "Karim developed me as a sophisticated AI chatbot with both text and image processing abilities.",
+          "I'm the result of Karim's work - a modern AI assistant designed to help with various tasks!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather today?", "Is it going to rain today?", "How's the weather?", "Do I need an umbrella?", "What is the weather like?"],
+        "responses": ["I'm not sure about the weather, but check your favorite weather app!", "I suggest you check your local weather station for an accurate report."]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?", "What is the time now?"],
+        "responses": ["Sorry, I can't check the time right now. But you can check your phone or computer!", "The time is always on your device!"]
+      },
+      {
+        "tag": "faq",
+        "patterns": ["What is your purpose?", "Why do you exist?", "What can you do?", "Tell me about yourself", "How do you work?"],
+        "responses": [
+          "I am KimozChatBot, built by Karim to assist you with simple tasks.",
+          "My purpose is to help answer questions and provide guidance!",
+          "I work by using intents to match your queries and respond accordingly."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Make me laugh", "Say something funny", "Do you know any jokes?", "Tell me a funny story"],
+        "responses": [
+          "Why don't programmers like nature? It has too many bugs!",
+          "Why do Java developers wear glasses? Because they can't C#.",
+          "Debugging: Removing the needles from the haystack."
+        ]
+      },
+      {
+        "tag": "capabilities",
+        "patterns": [
+          "What can you do?", "What are your features?", "Help", "Tell me about yourself",
+          "What are you capable of?", "How can you help me?", "What should I ask you?",
+          "Show me what you can do"
+        ],
+        "responses": [
+          "I can help you with various tasks! I can answer questions, analyze images, and engage in conversations. Feel free to ask me anything!",
+          "I'm a versatile AI assistant! I can process text and images, answer questions, and help you with different topics. What would you like to explore?",
+          "I'm here to assist you! I can understand text and images, provide information, and engage in meaningful conversations. How can I help you today?"
+        ]
+      },
+      {
+        "tag": "image_analysis",
+        "patterns": [
+          "Can you look at this image?", "What's in this picture?", "Analyze this image",
+          "What do you see in this photo?", "Describe this image", "What's this picture about?"
+        ],
+        "responses": [
+          "I'll analyze the image for you. What would you like to know about it?",
+          "I can see the image. What aspects would you like me to focus on?",
+          "I'll take a look at that image. What information are you interested in?"
+        ]
+      },
+      {
+        "tag": "clarification",
+        "patterns": [
+          "I don't understand", "What do you mean?", "Can you explain?",
+          "I'm confused", "Please clarify", "Could you elaborate?"
+        ],
+        "responses": [
+          "I'll try to explain more clearly. What part would you like me to clarify?",
+          "Let me break that down for you. Which aspect needs more explanation?",
+          "I'll be happy to provide more details. What specifically confused you?"
+        ]
+      },
+      {
+        "tag": "positive_feedback",
+        "patterns": [
+          "That's helpful", "Good answer", "You're smart", "Well done",
+          "That's exactly what I needed", "Perfect", "Great job"
+        ],
+        "responses": [
+          "Thank you! I'm glad I could help. What else would you like to know?",
+          "I appreciate the feedback! Let me know if you need anything else.",
+          "That's great to hear! I'm here if you have more questions."
+        ]
+      },
+      {
+        "tag": "negative_feedback",
+        "patterns": [
+          "That's wrong", "Not what I wanted", "You don't understand",
+          "That's not helpful", "You're not getting it", "That's incorrect"
+        ],
+        "responses": [
+          "I apologize for the misunderstanding. Could you please rephrase your question?",
+          "Let me try to understand better. Could you provide more details?",
+          "I'm sorry I didn't get that right. How can I better assist you?"
+        ]
+      },
+      {
+        "tag": "general_conversation",
+        "patterns": [
+          "How are you?", "How's it going?", "What's new?",
+          "How are you doing?", "How's your day?"
+        ],
+        "responses": [
+          "I'm functioning well and ready to help! What can I do for you?",
+          "I'm here and eager to assist! What's on your mind?",
+          "I'm operating at full capacity and happy to help! What do you need?"
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "What can you do",
+          "Who are you",
+          "Tell me about yourself",
+          "What are your capabilities"
+        ],
+        "responses": [
+          "I'm an AI assistant powered by BERT. I can help you with conversations and analyze images!",
+          "I'm your friendly AI chatbot. I can chat with you and even process images you share with me!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Help",
+          "I need help",
+          "Can you help me",
+          "What should I do"
+        ],
+        "responses": [
+          "I'm here to help! You can chat with me or share images for analysis. What would you like to do?",
+          "How can I assist you? Feel free to chat or share images with me!"
+        ]
+      }
+    ]
+  }
